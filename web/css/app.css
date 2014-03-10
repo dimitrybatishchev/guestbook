@@ -1,0 +1,264 @@
+header {
+    background: url(../images/marquee-stars.svg) #074e68;
+    background-size: cover;
+    padding: 22px 0; }
+@media screen and (max-width: 768px) {
+    header {
+        background: url(none) #074e68; } }
+header h1 {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 0; }
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+        line-height: 31px; } }
+header h4 {
+    color: #cccccc;
+    font-weight: 300; }
+
+
+
+#main-content {
+    margin: 44px 0 22px;
+    padding-bottom: 22px;
+    /* Tools-Community Page */
+    /*Github Issues*/
+    /*Case Studies*/
+    /* Contribute Home */ }
+@media screen and (max-width: 768px) {
+    #main-content {
+        margin: 20px 0 20px;
+        padding-bottom: 0px; } }
+#main-content h1, #main-content h2, #main-content h3, #main-content h4 {
+    font-style: normal;
+    font-weight: 300; }
+#main-content h2 {
+    margin-bottom: 0px; }
+@media screen and (max-width: 768px) {
+    #main-content h2 {
+        font-size: 25px;
+        line-height: 30px; } }
+#main-content h4 {
+    margin-bottom: 20px; }
+@media screen and (max-width: 768px) {
+    #main-content h4 {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 20px; } }
+#main-content h5 {
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 35px; }
+#main-content p {
+    font-color: #666666 !important; }
+@media screen and (max-width: 768px) {
+    #main-content .text-center-on-small {
+        text-align: center; } }
+#main-content .right-text {
+    text-align: right; }
+#main-content .centered-text {
+    text-align: center; }
+#main-content .headspace-10 {
+    margin-top: 10px; }
+#main-content .headspace-20 {
+    margin-top: 20px; }
+#main-content .margin-bottom-minus-20px {
+    margin-bottom: -20px; }
+#main-content .margin-top-minus-44px {
+    margin-top: -44px; }
+#main-content .margin-40px {
+    margin: 40px 0; }
+#main-content .margin-top-40px {
+    margin-top: 40px; }
+#main-content .margin-bottom-40px {
+    margin-bottom: 40px; }
+#main-content .smallicons img {
+    max-width: 25px;
+    margin: 3px 0 5px 0;
+    position: absolute; }
+#main-content .smallicons h4 {
+    padding-bottom: 20px; }
+#main-content .smallicons h5, #main-content .smallicons p {
+    padding-left: 40px; }
+#main-content .supporticons {
+    text-align: center; }
+#main-content .supporticons img {
+    padding: 20px;
+    max-height: 200px; }
+#main-content .smallfeaturesicons img {
+    position: relative;
+    height: 38px;
+    max-width: 38px;
+    margin-top: 10px; }
+#main-content .smallfeaturesicons h5, #main-content .smallfeaturesicons p {
+    margin-top: 10px;
+    padding-left: 0px; }
+@media screen and (max-width: 768px) {
+    #main-content .smallfeaturesicons img {
+        position: absolute;
+        height: 30px;
+        max-width: 30px;
+        margin-top: auto; }
+    #main-content .smallfeaturesicons h5, #main-content .smallfeaturesicons p {
+        margin-top: 0px;
+        padding-left: 40px; } }
+#main-content .toolslist ul, #main-content .toolslist li, #main-content .toolslist ol, #main-content .toolslist dl {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; }
+#main-content #githubissues {
+    background: #1399bd;
+    padding: 15px 0px; }
+#main-content #githubissues p.commit {
+    line-height: 18px; }
+#main-content #githubissues h4 {
+    font-size: 13px !important; }
+#main-content #githubissues .commit {
+    margin-top: 8px;
+    color: white;
+    opacity: 0.7;
+    float: left; }
+#main-content #githubissues span.date, #main-content #github #github a {
+    color: white;
+    font-size: 12px !important;
+    white-space: break-word;
+    line-height: 1.3;
+    margin-bottom: 3px; }
+#main-content #githubissues a.commit {
+    color: white;
+    font-weight: 300;
+    font-size: 13px !important;
+    word-break: break-word;
+    white-space: break-word;
+    top: 10px;
+    word-wrap: break-word;
+    opacity: 0.7;
+    position: relative; }
+@media only screen and (max-width: 767px) {
+    #main-content #githubissues a.commit {
+        top: auto; } }
+#main-content #githubissues a.button {
+    background: #137795;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    float: right;
+    width: auto;
+    margin-top: 4px; }
+#main-content #githubissues a.button:hover {
+    background: #006582; }
+#main-content #github {
+    background: #1399bd;
+    padding: 15px 0; }
+#main-content #github h4 {
+    color: white;
+    opacity: 0.7;
+    float: left;
+    font-size: 13px; }
+#main-content #github span, #main-content #github #github a {
+    color: white;
+    font-size: 13px;
+    white-space: break-word;
+    line-height: 1.3;
+    margin-bottom: 3px; }
+#main-content #github span.date {
+    text-transform: uppercase;
+    color: #d8f7fd;
+    top: 13px;
+    position: relative;
+    font-size: 12px !important; }
+#main-content #github a.commit {
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    font-size: 13px;
+    word-break: break-word;
+    white-space: break-word;
+    word-wrap: break-word;
+    opacity: 0.7;
+    top: 13px;
+    position: relative; }
+#main-content #github a.button {
+    background: #137795;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    float: right;
+    width: auto;
+    margin-top: 4px; }
+#main-content #github a.button:hover {
+    background: #006582; }
+#main-content #sideDeviceiPad {
+    max-width: 140%; }
+#main-content #sideDeviceDesktop {
+    max-width: 240%; }
+@media only screen and (max-width: 767px) {
+    #main-content #sideDeviceDesktop {
+        max-width: 100%; }
+    #main-content #sideDeviceiPad {
+        max-width: 100%; } }
+#main-content header#home {
+    background-position: center bottom;
+    padding: 120px 0 220px;
+    background-repeat: no-repeat;
+    background-color: #13a7c7; }
+@media screen and (max-width: 768px) {
+    #main-content header#home {
+        height: 595px;
+        padding: 20px 0 220px; } }
+#main-content header#home input {
+    height: 45px; }
+#main-content header#home h4 {
+    line-height: 30px;
+    margin-bottom: 44px; }
+#main-content header#home .button {
+    background: #137795;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+#main-content header#home .button:hover {
+    background: #006582; }
+#main-content header#home .button.secondary {
+    background: #248cac;
+    background: rgba(0, 0, 0, 0.15);
+    color: #9ccbd9;
+    color: rgba(255, 255, 255, 0.55); }
+#main-content header#home .button.secondary.small {
+    padding: 5px 8px 6px; }
+#main-content header#home .button.secondary:hover {
+    background: #207c98;
+    background: rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.75); }
+
+#main-content table{
+    width: 100%;
+}
+
+.list{
+
+}
+.list .item{
+    margin: 20px 0;
+}
+.list .item .name{
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #222222;
+    text-rendering: optimizeLegibility;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    font-size: 1.4375rem;
+}
+.list .item .name span{
+    font-weight: bold;
+}
+.list .item .description{
+    clear: both;
+    padding: 20px 0 0 0;
+}
